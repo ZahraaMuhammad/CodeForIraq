@@ -1,0 +1,60 @@
+button:hover {
+    background: -webkit-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: -moz-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: -ms-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: -o-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    color: #8F679C;
+    transition: 0.3s;
+    font-weight: bold;
+}
+.rows {
+    padding-top: auto;
+    padding-bottom: auto;
+    height: 150px;
+    width: 1600px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background: -webkit-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: -moz-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: -ms-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: -o-linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+    background: linear-gradient(to right, #8F679C 0%, #BAA6C0 100%);
+
+}
+.img-circle {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    margin-top: -35px;
+    margin-left: -500px;
+    background: #8F679C;
+    border-radius: 50%;
+}
+.custom-btn {
+    width: 110px;
+    height: 38px;
+    border-radius: 3px;
+    /*border: 1px solid white;*/
+    background: #8F679C;
+    color: white;
+    margin-left: 1150px;
+    margin-top: -10px;
+    font-size: 22px;
+}
+.heading-h2 {
+    font-family: Montserrat Light;
+    color: white;
+    display: inline-block;
+    float: left;
+    font-size: 35px;
+    margin: 55px 0 0 150px;
+}
+.heading-h4 {
+    font-family: Montserrat Light;
+    color: white;
+    float: right;
+    display: inline-block;
+    font-size: 20px;
+    margin: 40px 150px 0 500px;
+}

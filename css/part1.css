@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+/*start top head */
+.topHead{
+	width: 100%;
+	height: 40px;
+	line-height: 40px;
+	display: inline-block;
+}
+.titleHead{
+	width: 50%;
+	float: left;
+	color: #8F679C;
+	text-align: left!important;
+}
+
+.titleHead img{
+background : #8F679C;
+width: 30px;
+height: 30px;
+float: left;
+margin-right: 7px;
+margin-top: 5px;
+border-radius: 50%;
+}
+
+	.titleHead span{
+		color: black;
+	}
+
+.infoHead{
+	width: 50%;
+	float: right;
+	display: inline;
+}
+
+	.infoHead .icon1{
+		margin-right: 20px;
+	}
+	.infoHead i.purple{
+		background-color: #8F679C;
+		color: white;
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		text-align: center;
+		font-size: 12px;
+		}
+
+		.infoHead .icon2{
+		margin-right: 40px;
+	}
+
+		.infoHead i.gray{
+		background-color: #eeeeee;
+		color: black;
+		border-radius: 50%;
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		text-align: center;
+		font-size: 12px;
+		}
+
+		#bb a {
+
+		}
+/* end top head */
+
+
+/*  start nav */
+.backPhoto {
+	background-image: url('../images/1.PNG');
+	background-size: cover;
+	height: 550px;
+}
+.overlay{
+    height: 550px;
+    background: rgba(142, 95, 145, 0.5);
+}
+.navbar {
+	font-family: Montserrat SemiBold !important;
+}
+nav ul{margin: 0 auto!important;}
+.igNav{
+	background-color: #8F679C;
+	opacity: 0.7;
+}
+li{
+	margin-right: 10px;
+	width: 180px;
+	color: #ffffff;
+}
+a{color: #ffffff !important;font-size: 15px}
+a:hover{
+	color: #fff;
+	margin-top: 0;
+	font-size: 16px;
+	width: 190px;
+}
+
+.navIcon{
+		background-color: #8F679C;
+		color: white;
+		border-radius: 50%;
+		border: 2px solid white;
+		width: 30px;
+		height: 30px;
+		line-height: 27px;
+		text-align: center;
+		font-size: 15px;
+	}
+ .backInfo{
+	color: white;
+	text-align: center;
+	padding-top: 40px;
+	 margin-top: -80px;
+}
+.backInfo img{
+	width: 170px;
+	height: 170px;
+	position: relative;
+	left: -250px;
+	top:120px;
+	margin-right: 150px;
+}
+.backInfo h1{
+	font-size: 50px;
+	margin-bottom: 5px;
+}
+.backInfo span{color: black;}
+.backInfo a{
+	text-decoration: none;
+	background: #8F679C;
+	width: 125px;
+	height: 45px;
+	margin-top: 50px;
+	border: none;
+	padding-top: 9px;
+	font-size: 18px;
+}
+
+/*  end nav */
+
+
+/* phone */
+
+@media(max-width:768px){
+	.titleHead{
+		width: 100%;
+		text-align: center;
+	}
+	.infoHead{
+		width: 100%;
+	}
+	.infoHead span{
+		display: none
+	}
+
+}
